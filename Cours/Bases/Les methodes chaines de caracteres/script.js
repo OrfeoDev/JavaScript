@@ -19,4 +19,18 @@ const strToArray = str.split(' ');
 console.log(strToArray)
 console.log(strToArray.join('    '))
 
-co
+
+//Ici
+const voiture= {
+    couleur : 'noire',
+    marque: 'Peugeot',
+    annee: 2019,
+    myFunction : function (){
+        console.log(this.annee)
+    }
+
+}
+// Ici on met en place le click sur le bouton annee
+const btn =document.querySelector('button');
+// j'ai binde pour lie la voiyure
+btn.addEventListener('click', voiture.myFunction.bind(voiture));
