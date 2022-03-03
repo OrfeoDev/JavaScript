@@ -19,7 +19,7 @@ console.log(body); //renvoie null dans certains cas
 //soit on déplace la déclaration de notre balise script à la fin du body
 //soit on utilise un évènement, vu qu'on a pas vu les évènements on va déplacer la balise script à la fin du body
 
-//les données stockées dans le DOM servent donc à accéder aux données du document en temps réel pour le modifier, intéragir avec, gérer des évènements (click, scroll, etc) pour introduire une interaction avec l'utilisateur ou d'autres applications
+//les données stockées dans le DOM sevent donc à accéder aux données du document en temps réel pour le modifier, intéragir avec, gérer des évènements (click, scroll, etc) pour introduire une interaction avec l'utilisateur ou d'autres applications
 
 
 //chaque élément du DOM est représenté par un "noeud" (node) qui est un objet

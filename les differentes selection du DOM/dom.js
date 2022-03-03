@@ -18,7 +18,5 @@ premierTitre.innerHTML= 'hello jjghkjlkjhggjhkjlkjkhjghf';
 // on ne peut pas faire document.body et liste appendchil
 document.body.appendChild(nvEl)
 
-//suppression d'un element en ciblant un element en particulier
-liste.children[2].remove();
-// remplacer un element
-liste.children[1].replaceWith('llll');
+//suppression d'un element
+liste.children[2].remove()
